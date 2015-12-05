@@ -1,7 +1,31 @@
 # Kid Check
 Check in/out system for safely managing the responsibility of caring for others' children.
 
-# The MIT License (MIT)
+### Getting Started
+
+Clone the project, install dependencies, and run locally using gulp. It will open a browser tab automatically.
+
+    git clone https://github.com/everettcaleb/kidcheck.git
+    sudo npm install -g gulp
+    cd kidcheck
+    npm install
+    gulp serve
+
+### Acknowledgements
+
+Projects used to build this:
+- [Node.js](https://nodejs.org)
+- [Gulp](http://gulpjs.com)
+- [Jade](http://jade-lang.com)
+- [Bootstrap](http://getbootstrap.com)
+- [Sass](http://sass-lang.com)
+- [Express](http://expressjs.com)
+- [Browsersync](http://www.browsersync.io)
+- [JSHint](http://jshint.com)
+- [CleanCSS](http://www.cleancss.com)
+- [UglifyJS](http://lisperator.net/uglifyjs)
+
+### The MIT License (MIT)
 
 Copyright &copy; 2015 Caleb Everett
 
