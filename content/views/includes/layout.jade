@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1, user-scalable=no")
+        title Kid Check
+        link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+        link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css")
+        link(rel="stylesheet" href="/styles/app.min.css")
+        block styles
+    body
+        header
+            include nav.jade
+                            
+        block content
+            
+        footer
+            include footer.jade
+
+        script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+        script(src="//cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js")
+        script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
+        script(src="/scripts/app.min.js")
+        block scripts
