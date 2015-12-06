@@ -44,6 +44,7 @@ gulp.task('js.min', () => {
 });
 
 gulp.task('minify', ['sass.min', 'js.min', 'jade']);
+
 gulp.task('serve', ['sass', 'js', 'jade'], () => {
     browserSync({
         server: {
