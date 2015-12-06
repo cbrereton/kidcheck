@@ -23,6 +23,10 @@ To prepare the project for production, you can run the following commands after 
 
 This project is live on [Heroku](http://heroku.com) and you can check it out [here](http://kidcheck.herokuapp.com).
 
+### Notes and Free-form documentation
+
+I take notes and record useful information for the project in [Evernote](https://evernote.com). You can see the notebook (read-only) [here](https://www.evernote.com/pub/calebe191/kidcheck).
+
 ### Acknowledgements
 
 Projects used to build this:
@@ -37,6 +41,7 @@ Projects used to build this:
 - [CleanCSS](http://www.cleancss.com)
 - [UglifyJS](http://lisperator.net/uglifyjs)
 - [Heroku](http://heroku.com)
+- [Evernote](https://evernote.com)
 
 ### The MIT License (MIT)
 
