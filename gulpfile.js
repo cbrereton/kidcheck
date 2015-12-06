@@ -1,7 +1,7 @@
 "use strict";
 let gulp = require('gulp'),
     jade = require('gulp-jade'),
-    sass = require('gulp-ruby-sass'),
+    sass = require('gulp-sass'),
     jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
@@ -10,7 +10,8 @@ let gulp = require('gulp'),
     reload = browserSync.reload;
 
 gulp.task('sass', () => {
-    return sass('content/styles/**/*.scss', { style: 'expanded' })
+    return src('content/styles/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('www/styles'));
 });
@@ -28,7 +29,8 @@ gulp.task('jade', () => {
 });
 
 gulp.task('sass.min', () => {
-    return sass('content/styles/**/*.scss', { style: 'expanded' })
+    return gulp.src('content/styles/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
         .pipe(rename({ suffix: '.min' }))
         .pipe(minifyCss())
         .pipe(gulp.dest('www/styles'));
