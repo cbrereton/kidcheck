@@ -1,4 +1,5 @@
 # Kid Check
+
 Check in/out system for safely managing the responsibility of caring for others' children.
 
 ### Getting Started
@@ -10,6 +11,17 @@ Clone the project, install dependencies, and run locally using gulp. It will ope
     cd kidcheck
     npm install
     gulp serve
+
+To prepare the project for production, you can run the following commands after checking out the repository.
+
+    cd kidcheck
+    npm install
+    npm postinstall
+    npm start
+
+### It's Alive!!!
+
+This project is live on [Heroku](http://heroku.com) and you can check it out [here](http://kidcheck.herokuapp.com).
 
 ### Acknowledgements
 
@@ -24,6 +36,7 @@ Projects used to build this:
 - [JSHint](http://jshint.com)
 - [CleanCSS](http://www.cleancss.com)
 - [UglifyJS](http://lisperator.net/uglifyjs)
+- [Heroku](http://heroku.com)
 
 ### The MIT License (MIT)
 
