@@ -4,7 +4,8 @@
   "description": "Check in/out system for safely managing the responsibility of caring for others' children.",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "postinstall": "gulp minify"
   },
   "repository": {
     "type": "git",
